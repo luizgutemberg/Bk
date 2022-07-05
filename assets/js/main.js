@@ -154,14 +154,14 @@
   });
 
   /**
-   * Initiate glightbox 
+   * Íniciação glightbox 
    */
   const glightbox = GLightbox({
     selector: '.glightbox'
   });
 
   /**
-   * Porfolio isotope and filter
+   * Porfolio  filtro
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
@@ -189,14 +189,14 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * iniciação portfolio lightbox 
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
   /**
-   * Portfolio details slider
+   * Portfolio slider
    */
   new Swiper('.portfolio-details-slider', {
     speed: 400,
