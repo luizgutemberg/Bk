@@ -123,6 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar ul {
+  
   margin: 0;
   padding: 0;
   display: flex;
@@ -139,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   
   font-size: 16px;
-  font-weight: 700;
+  font-weight:bold;
   color: #424141;
   white-space: nowrap;
   transition: 0.3s;
@@ -157,14 +158,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 30px;
   border-radius: 4px;
   line-height: 1;
-  color: #4e4d4d;
+  color: #000000;
   font-size: 14px;
   font-weight: 500;
   border: 1px solid #f0e000;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-  background: #f0e000;
-  color: rgb(73, 72, 72);
+  background: #131312;
+  color: #f0e000;
   border-color: #f0e000;
   ;
 }
@@ -762,11 +763,11 @@ section {
   background-color: #000000;
 }
 .contact .info {
+  width: 100%;
   border-radius: 50px;
   border-top: 3px solid #fcce00;
   border-bottom: 3px solid #fcce00;
   padding: 30px;
-  width: 100%;
   background-color: #070707;
 }
 
@@ -825,12 +826,14 @@ section {
   color: rgb(53, 8, 252);
 }
 .contact .card {
+  
   width: 100%;
   border-radius: 50px;
   border-top: 3px solid #fcce00;
   border-bottom: 3px solid #fcce00;
   padding: 30px;
-  background-color: #0a0a0a;
+  background-color: #070707;
+  box-shadow: none;
 }
 .contact .card .form-group {
   padding-bottom: 8px;
@@ -888,10 +891,11 @@ section {
   padding: 10px 12px;
 }
 .contact .card button[type=submit] {
+  font-weight: bold;
   background: #fcce00;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: rgb(8, 8, 8);
   transition: 0.4s;
   border-radius: 4px;
 }
