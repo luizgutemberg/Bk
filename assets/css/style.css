@@ -106,6 +106,25 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   max-height: 70px;
 }
+
+#header .social i{
+  color: #424141;
+  font-size: x-large;
+  margin: 0 5px
+  
+}
+
+#header .social i:hover{
+  color: #f0e000;
+  font-size: x-large;
+}
+
+#header.header-scrolled i{
+  color:#8f8e8e;
+}
+
+
+
 @media (max-width: 991px) {
   #header {
     padding: 12px 0;
@@ -140,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   
   font-size: 16px;
-  font-weight:bold;
+  font-weight: bold;
   color: #424141;
   white-space: nowrap;
   transition: 0.3s;
@@ -625,6 +644,25 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.portfolio .social a {
+  color: #444444;
+  transition: 0.3s;
+}
+.portfolio .social a:hover {
+  color: #fcce00;
+}
+.portfolio .social i {
+  font-size: 25px;
+  margin: 0 2px;
+}
+
+.portfolio .social img{
+  align-items: center;
+  width: 35px;
+}
+
+
 .portfolio #portfolio-flters {
   border-top: 3px solid #fcce00;
   padding: 0;
