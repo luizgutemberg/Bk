@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .social i{
   color: #424141;
   font-size: x-large;
-  margin: 0 5px
+  margin: 0 5px;
   
 }
 
@@ -121,6 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled i{
   color:#8f8e8e;
+  
 }
 
 
@@ -128,6 +129,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
   #header {
     padding: 12px 0;
+  }
+  #header .social{
+    padding-right: 50px;
   }
 }
 
